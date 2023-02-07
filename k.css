@@ -189,13 +189,45 @@ section:target {
 .skill-name span {
     margin: 0;
 }
+/* h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+} */
+
+.resp {
+    width: 32%;
+    margin: 0.44%;
+    height: 300px;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    .resp {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+}
+
+.c-red {
+    background-color: #ff8989;
+}
+
+.c-green {
+    background-color: #88f7ce;
+}
+
+.c-purple {
+    background-color: #e29df2;
+}
 
 /*Timeline*/
 
 .timeline {
     position: relative;
     width: 75%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
 
@@ -205,7 +237,7 @@ section:target {
     width: 40%;
     left: 5%;
     min-height: 150px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .timeline-box:nth-child(2n) {
